@@ -29,24 +29,6 @@
     };
 
     macros {
-        alt_tab: alt_tab {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LEFT_ALT &kp TAB>;
-            label = "ALT_TAB";
-        };
-        win_sc_left: win_sc_left {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LCTRL &kp LEFT_WIN &kp LEFT_ARROW>;
-            label = "WIN_SC_LEFT";
-        };
-        win_sc_right: win_sc_right {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LCTRL &kp LEFT_WIN &kp RIGHT_ARROW>;
-            label = "WIN_SC_RIGHT";
-        };
     };
 
     keymap {
@@ -102,10 +84,10 @@
             //                                   '--------+----------+----------'       '---------+----------+---------'
 
             bindings = <
-&kp LG(LS(N4))  &trans  &kp PAGE_UP     &kp UP_ARROW    &kp PAGE_DOWN    &kp HOME    &kp CARET           &kp PAGE_UP          &kp UP_ARROW    &kp PAGE_DOWN    &kp HOME  &kp LG(LS(N4))
-&trans          &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END     &kp MINUS           &kp LEFT_ARROW       &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END   &trans
-&out OUT_TOG    &trans  &trans          &trans          &trans           &alt_tab    &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)  &trans          &trans           &trans    &out OUT_TOG
-                                        &kp LGUI        &mo 3            &trans      &trans              &trans               &trans
+&kp LG(LS(N4))  &trans  &kp PAGE_UP     &kp UP_ARROW    &kp PAGE_DOWN    &kp HOME       &kp CARET           &kp PAGE_UP          &kp UP_ARROW    &kp PAGE_DOWN    &kp HOME  &kp LG(LS(N4))
+&trans          &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END        &kp MINUS           &kp LEFT_ARROW       &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END   &trans
+&out OUT_TOG    &trans  &trans          &trans          &trans           &kp LA(TAB)    &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)  &trans          &trans           &trans    &out OUT_TOG
+                                        &kp LGUI        &mo 3            &trans         &trans              &trans               &trans
             >;
         };
 
@@ -130,10 +112,10 @@
 
         layer_4 {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6    &kp F7                                &kp F8            &kp F9                            &kp F10  &kp F11  &kp F12
-&trans  &trans  &trans  &trans  &trans  &trans    &kp C_KEYBOARD_INPUT_ASSIST_PREVIOUS  &kp K_PLAY_PAUSE  &kp C_KEYBOARD_INPUT_ASSIST_NEXT  &trans   &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &win_sc_left                          &win_sc_right     &trans                            &trans   &trans   &trans
-                        &trans  &trans  &trans    &trans                                &trans            &trans
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6    &kp F7            &kp F8             &kp F9      &kp F10  &kp F11  &kp F12
+&trans  &trans  &trans  &trans  &trans  &trans    &kp C_PREVIOUS    &kp C_PLAY_PAUSE   &kp C_NEXT  &trans   &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &trans      &trans   &trans   &trans
+                        &trans  &trans  &trans    &trans            &trans             &trans
             >;
         };
     };
