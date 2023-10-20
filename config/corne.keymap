@@ -84,10 +84,10 @@
             //                                   '--------+----------+----------'       '---------+----------+---------'
 
             bindings = <
-&kp LG(LS(N4))  &trans  &kp PAGE_UP     &kp UP_ARROW    &kp PAGE_DOWN    &kp HOME       &kp CARET           &kp PAGE_UP          &kp UP_ARROW    &kp PAGE_DOWN    &kp HOME  &kp LG(LS(N4))
-&trans          &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END        &kp MINUS           &kp LEFT_ARROW       &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END   &trans
-&out OUT_TOG    &trans  &trans          &trans          &trans           &kp LA(TAB)    &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)  &trans          &trans           &trans    &out OUT_TOG
-                                        &kp LGUI        &mo 3            &trans         &trans              &trans               &trans
+&kp LG(LS(N4))  &trans  &kp PAGE_UP     &kp UP_ARROW    &kp PAGE_DOWN       &kp HOME       &kp CARET           &kp PAGE_UP          &kp UP_ARROW    &kp PAGE_DOWN    &kp HOME  &kp LG(LS(N4))
+&trans          &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW     &kp END        &kp MINUS           &kp LEFT_ARROW       &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END   &trans
+&out OUT_TOG    &trans  &trans          &trans          &kp LA(LEFT_SHIFT)  &kp LA(TAB)    &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)  &trans          &trans           &trans    &out OUT_TOG
+                                        &kp LGUI        &mo 3               &trans         &trans              &trans               &trans
             >;
         };
 
