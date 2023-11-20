@@ -83,8 +83,8 @@
             //                                   '--------+----------+----------'       '---------+----------+---------'
 
             bindings = <
-&trans  &trans  &kp LC(PAGE_UP)  &kp UP_ARROW    &kp LC(PAGE_DOWN)   &trans             &trans              &kp LC(PAGE_UP)      &kp UP_ARROW            &kp LC(PAGE_DOWN)        &trans  &trans
-&trans  &trans  &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW     &kp LC(LA(TAB))    &trans              &kp LEFT_ARROW       &kp DOWN_ARROW          &kp RIGHT_ARROW          &trans  &trans
+&trans  &trans  &kp LC(PAGE_UP)  &kp UP_ARROW    &kp LC(PAGE_DOWN)   &trans             &kp PAGE_UP         &kp LC(PAGE_UP)      &kp UP_ARROW            &kp LC(PAGE_DOWN)        &trans  &trans
+&trans  &trans  &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW     &kp LC(LA(TAB))    &kp PAGE_DOWN       &kp LEFT_ARROW       &kp DOWN_ARROW          &kp RIGHT_ARROW          &trans  &trans
 &trans  &trans  &trans           &kp LC(F5)      &kp LA(LEFT_SHIFT)  &kp LA(TAB)        &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)  &kp LC(LS(LEFT_ARROW))  &kp LC(LS(RIGHT_ARROW))  &trans  &trans
                                  &kp LGUI        &mo 3               &trans             &trans              &trans               &trans
             >;
