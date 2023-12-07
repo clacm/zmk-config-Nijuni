@@ -106,10 +106,10 @@
             //                                   '--------+---------+---------'       '-------+---------+---------'
 
             bindings = <
-&trans  &trans    &kp N7             &kp N8          &kp N9               &kp N0       &trans              &trans                        &trans     &trans    &trans    &trans
-&trans  &kp LGUI  &hm_l LEFT_ALT N4  &hm_l LCTRL N5  &hm_l LEFT_SHIFT N6  &kp EQUAL    &kp LS(LEFT_BRACE)  &hm_r LEFT_SHIFT RIGHT_BRACE  &kp LCTRL  &kp LALT  &kp LGUI  &trans
-&trans  &trans    &kp N1             &kp N2          &kp N3               &kp MINUS    &kp LBKT            &kp RBKT                      &kp GRAVE  &trans    &trans    &trans
-                                     &trans          &trans               &trans       &trans              &trans                        &trans
+&trans  &trans    &kp N7             &kp N8          &kp N9               &kp N0       &trans          &trans                        &trans     &trans    &trans    &trans
+&trans  &kp LGUI  &hm_l LEFT_ALT N4  &hm_l LCTRL N5  &hm_l LEFT_SHIFT N6  &kp EQUAL    &kp LEFT_BRACE  &hm_r LEFT_SHIFT RIGHT_BRACE  &kp LCTRL  &kp LALT  &kp LGUI  &trans
+&trans  &trans    &kp N1             &kp N2          &kp N3               &kp MINUS    &kp LBKT        &kp RBKT                      &kp GRAVE  &trans    &trans    &trans
+                                     &trans          &trans               &trans       &trans          &trans                        &trans
             >;
         };
 
