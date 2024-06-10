@@ -115,6 +115,7 @@
 &kp LCTRL       &kp A  &kp S  &kp D                        &kp F         &kp G          &kp H          &kp J        &kp K         &kp L    &kp SEMI   &kp SQT
 &kp LEFT_SHIFT  &kp Z  &kp X  &kp C                        &kp V         &kp B          &kp N          &kp M        &kp COMMA     &kp DOT  &kp SLASH  &kp GRAVE
                               &mt LEFT_GUI LA(LEFT_SHIFT)  &lt 2 ESCAPE  &lt 5 SPACE    &kp BACKSPACE  &lt 7 ENTER  &kp LEFT_ALT
+
             >;
         };
 
