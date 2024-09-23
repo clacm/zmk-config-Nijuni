@@ -109,7 +109,7 @@
         };
 
         sleep {
-            bindings = <&kp LA(LG(K_SLEEP))>;
+            bindings = <&kp LG(LC(Q))>;
             key-positions = <0 11>;
         };
 
@@ -143,10 +143,10 @@
 
         num_nav {
             bindings = <
-&trans          &trans        &mt LS(N7) N7  &mt LS(N8) N8  &mt LS(N9) N9  &kp EQUAL    &kp LEFT_BRACE                  &kp RIGHT_BRACE   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LBKT     &kp RBKT
-&kp LEFT_GUI    &kp BSPC      &mt LS(N4) N4  &mt LS(N5) N5  &mt LS(N6) N6  &kp MINUS    &mt LS(LC(LG(LEFT_ALT))) LCTRL  &kp LEFT          &kp DOWN              &kp UP                 &kp RIGHT    &kp DOLLAR
-&kp LEFT_SHIFT  &kp LEFT_ALT  &mt LS(N1) N1  &mt LS(N2) N2  &mt LS(N3) N3  &kp N0       &kp LA(LS(MINUS))               &kp LC(LS(TAB))   &kp PG_DN             &kp PG_UP              &kp LC(TAB)  &kp TILDE
-                                             &kp TILDE      &kp SPACE      &kp N0       &trans                          &kp LS(LG(LEFT))  &kp LS(LG(RIGHT))
+&trans          &trans  &mt LS(N7) N7  &mt LS(N8) N8  &mt LS(N9) N9  &kp EQUAL    &kp LEFT_BRACE   &kp RIGHT_BRACE   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LBKT    &kp RBKT
+&trans          &trans  &mt LS(N4) N4  &mt LS(N5) N5  &mt LS(N6) N6  &kp MINUS    &kp LEFT_ARROW   &kp DOWN_ARROW    &kp UP_ARROW          &kp RIGHT_ARROW        &kp DOLLAR  &trans
+&kp LEFT_SHIFT  &trans  &mt LS(N1) N1  &mt LS(N2) N2  &mt LS(N3) N3  &kp N0       &kp LC(LS(TAB))  &kp PAGE_DOWN     &kp PG_UP             &kp LC(TAB)            &kp TILDE   &trans
+                                       &kp LEFT_GUI   &kp SPACE      &kp N0       &trans           &kp LS(LG(LEFT))  &kp LS(LG(RIGHT))
             >;
         };
 
@@ -173,7 +173,7 @@
             bindings = <
 &none   &none   &kp F7  &kp F8  &kp F9  &kp F10    &bt BT_SEL 0    &bt BT_SEL 1      &bt BT_SEL 2  &bt BT_SEL 3       &bt BT_SEL 4  &bt BT_CLR
 &trans  &trans  &kp F4  &kp F5  &kp F6  &kp F11    &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT    &kp C_VOLUME_UP    &trans        &trans
-&trans  &trans  &kp F1  &kp F2  &kp F3  &kp F12    &kp LA(LEFT)    &kp LA(RIGHT)     &trans        &kp C_VOLUME_DOWN  &none         &trans
+&trans  &trans  &kp F1  &kp F2  &kp F3  &kp F12    &kp LA(LEFT)    &kp LA(RIGHT)     &trans        &kp C_VOLUME_DOWN  &none         &kp LC(LG(Q))
                         &trans  &trans  &trans     &kp DELETE      &trans            &trans
             >;
         };
