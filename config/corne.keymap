@@ -134,19 +134,19 @@
             //                                   '--------+---------+---------'       '-------+---------+---------'
 
             bindings = <
-&mt LS(LC(LG(LEFT_ALT))) TAB  &kp Q  &kp W  &kp E                &kp R         &kp T                          &kp Y                        &kp U        &kp I                &kp O            &kp P              &kp BACKSLASH
-&kp LEFT_GUI                  &kp A  &kp S  &kp D                &kp F         &hml LS(LC(LG(LEFT_ALT))) G    &hmr LS(LC(LG(LEFT_ALT))) H  &kp J        &kp K                &kp L            &kp SEMI           &kp SQT
-&kp LEFT_SHIFT                &kp Z  &kp X  &kp C                &kp V         &kp B                          &kp N                        &kp M        &mt LS(COMMA) COMMA  &mt LS(DOT) DOT  &mt LS(FSLH) FSLH  &kp GRAVE
+&mt LS(LC(LG(LEFT_ALT))) TAB  &kp Q  &kp W  &kp E                &kp R         &kp T                          &kp Y                        &kp U        &kp I         &kp O    &kp P     &kp BACKSLASH
+&kp LEFT_GUI                  &kp A  &kp S  &kp D                &kp F         &hml LS(LC(LG(LEFT_ALT))) G    &hmr LS(LC(LG(LEFT_ALT))) H  &kp J        &kp K         &kp L    &kp SEMI  &kp SQT
+&kp LEFT_SHIFT                &kp Z  &kp X  &kp C                &kp V         &kp B                          &kp N                        &kp M        &kp COMMA     &kp DOT  &kp FSLH  &kp GRAVE
                                             &mt LCTRL LC(SPACE)  &lt 1 ESCAPE  &lt 2 SPACE                    &lt 4 BACKSPACE              &lt 3 ENTER  &kp LEFT_ALT
             >;
         };
 
         num {
             bindings = <
-&trans  &trans  &mt LS(N7) N7  &mt LS(N8) N8  &mt LS(N9) N9  &kp EQUAL    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans  &trans  &trans
-&trans  &trans  &mt LS(N4) N4  &mt LS(N5) N5  &mt LS(N6) N6  &kp MINUS    &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans  &trans  &trans  &trans
-&trans  &trans  &mt LS(N1) N1  &mt LS(N2) N2  &mt LS(N3) N3  &kp N0       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans  &trans  &trans  &trans
-                               &trans         &trans         &trans       &trans                &trans                 &trans
+&trans  &trans  &kp N7  &kp N8  &kp N9  &kp EQUAL    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans  &trans  &trans
+&trans  &trans  &kp N4  &kp N5  &kp N6  &kp MINUS    &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans  &trans  &trans  &trans
+&trans  &trans  &kp N1  &kp N2  &kp N3  &kp N0       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans       &trans                &trans                 &trans
             >;
         };
 
