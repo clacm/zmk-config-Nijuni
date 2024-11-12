@@ -162,10 +162,10 @@
             //                                   '--------+----------+----------'       '---------+----------+---------'
 
             bindings = <
-&trans  &trans  &kp LC(PAGE_UP)  &kp UP_ARROW    &kp LC(PAGE_DOWN)  &kp LC(UP_ARROW)      &kp PAGE_UP         &kp LC(PAGE_UP)      &kp UP_ARROW            &kp LC(PAGE_DOWN)        &trans                  &trans
-&trans  &trans  &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW    &kp LG(LC(LS(N4)))    &kp PAGE_DOWN       &kp LEFT_ARROW       &kp DOWN_ARROW          &kp RIGHT_ARROW          &trans                  &trans
-&trans  &trans  &kp LG(LS(C))    &kp LA(LG(C))   &kp LS(LG(R))      &cmd_tab              &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)  &kp LS(LA(LEFT_ARROW))  &kp LA(LS(RIGHT_ARROW))  &kp LG(LS(LEFT_ARROW))  &kp LS(LG(RIGHT_ARROW))
-                                 &trans          &mo 0              &trans                &trans              &trans               &trans
+&trans  &trans  &kp LC(LS(TAB))  &kp UP_ARROW    &kp LC(TAB)      &kp LC(UP_ARROW)      &kp PAGE_UP         &kp LC(PAGE_UP)      &kp UP_ARROW            &kp LC(PAGE_DOWN)        &trans                  &trans
+&trans  &trans  &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LG(LC(LS(N4)))    &kp PAGE_DOWN       &kp LEFT_ARROW       &kp DOWN_ARROW          &kp RIGHT_ARROW          &trans                  &trans
+&trans  &trans  &kp LG(LS(C))    &kp LA(LG(C))   &kp LS(LG(R))    &cmd_tab              &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)  &kp LS(LA(LEFT_ARROW))  &kp LA(LS(RIGHT_ARROW))  &kp LG(LS(LEFT_ARROW))  &kp LS(LG(RIGHT_ARROW))
+                                 &trans          &mo 0            &trans                &trans              &trans               &trans
             >;
         };
 
